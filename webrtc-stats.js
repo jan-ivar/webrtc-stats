@@ -20,7 +20,7 @@ var respecConfig = {
       // prevED: "http://dev.w3.org/2011/webrtc/editor/archives/20140321/webrtc.html",
 
       // if there a publicly available Editor's Draft, this is the link
-      edDraftURI: "http://dev.w3.org/2011/webrtc/editor/webrtc-stats.html",
+      edDraftURI: "http://w3c.github.io/webrtc-stats/",
 
       // if this is a LCWD, uncomment and set the end of its review period
       // lcEnd: "2009-08-05",
@@ -65,7 +65,7 @@ var respecConfig = {
       localBiblio:  {
         "XRBLOCK-STATS": {
             title:    "RTCP XR Metrics for WebRTC",
-            href:     "https://tools.ietf.org/html/draft-ietf-xrblock-rtcweb-rtcp-xr-metrics/",
+            href:     "https://tools.ietf.org/html/draft-ietf-xrblock-rtcweb-rtcp-xr-metrics",
             authors:  [
                 "Varun Singh",
                 "Rachel Huang",
@@ -82,6 +82,18 @@ var respecConfig = {
           authors: ["ITU-T G.168"],
           status: "Standard",
           publisher: "ITU-T"
+        },
+        "STUN-PATH-CHAR": {
+          title:    "Discovery of path characteristics using STUN",
+            href:     "https://tools.ietf.org/html/draft-reddy-tram-stun-path-data",
+            authors:  [
+                "T. Reddy",
+                "D. Wing",
+                "P. Martinsen",
+                "V. Singh"
+            ],
+            status:   "Internet Draft",
+            publisher:  "IETF"
         }
       },
     };
